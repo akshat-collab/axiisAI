@@ -14,3 +14,7 @@ enableXsrfProtection = true
 [browser]
 gatherUsageStats = false
 
+# IMPORTANT: Main file for Streamlit Cloud
+# This ensures app.py is used instead of Main.py
+[general]
+# Streamlit Cloud will use app.py as the main file
