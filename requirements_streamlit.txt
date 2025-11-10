@@ -1,35 +1,14 @@
-# Core dependencies
-python-dotenv
-google-generativeai
-cohere
-
-# Streamlit and web framework
+python-dotenv>=1.0.0
+google-generativeai>=0.3.0
+cohere>=4.0.0
 streamlit>=1.28.0
-streamlit-audio-recorder
-
-# Backend AI and search
-googlesearch-python
-requests
-beautifulsoup4
-rich
-
-# Speech recognition (optional)
+googlesearch-python>=1.2.3
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+rich>=13.0.0
 SpeechRecognition>=3.10.0
 pydub>=0.25.1
-
-# Text processing
-mtranslate
-
-# Image processing (if needed)
-pillow
-
-# Note: Some packages from original requirements are not needed for Streamlit:
-# - PyQt5 (replaced by Streamlit)
-# - selenium (replaced by Streamlit audio recorder or web-based solutions)
-# - AppOpener (not applicable for web deployment)
-# - pywhatkit (not applicable for web deployment)
-# - Keyboard (not applicable for web deployment)
-# - pygame (not needed for Streamlit)
-# - edge-tts (can be added if TTS is needed)
-# - webdriver-manager (not needed for Streamlit)
-
+mtranslate>=1.0.0
+pillow>=10.0.0
+edge-tts>=6.1.0
+pygame>=2.5.0
